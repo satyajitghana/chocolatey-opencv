@@ -1,8 +1,9 @@
 ﻿# OpenCV - Chocolatey Install
 
-## Version
+## Status
 
-OpenCV 4.2.0
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/satyajitghana/chocolatey-opencv)
+![opencv-choco](https://github.com/satyajitghana/chocolatey-opencv/workflows/opencv-choco/badge.svg)
 
 ## Installation
 
