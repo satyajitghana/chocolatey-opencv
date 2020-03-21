@@ -18,6 +18,6 @@ jobs:
       shell: powershell
       run: choco pack
       
-    - name: install choco
+    - name: install opencv
       shell: powershell
       run: choco install opencv --source .
