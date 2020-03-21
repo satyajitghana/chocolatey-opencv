@@ -1,0 +1,20 @@
+name: opencv-choco
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: pack choco
+      shell: powershell
+      run: choco pack
+      
+    - name: install choco
+      shell: powershell
+      run: choco install opencv --source .
