@@ -7,14 +7,17 @@ OpenCV 4.2.0
 ## Installation
 
 1. clone the repo
+
 `git clone https://github.com/satyajitghana/chocolatey-opencv`
 
 `cd chocolatey-opencv`
 
 2. pack the package
+
 `choco pack`
 
 3. install !
+
 `choco install opencv --source .`
 
 ## Package Info
