@@ -10,6 +10,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: install dependency
+      shell: powershell
+      run: choco install 7zip.commandline
 
     - name: pack choco
       shell: powershell
